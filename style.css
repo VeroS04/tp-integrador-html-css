@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* inicio contenido nav */
+.navbar {
+    height: 7vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4e4c4c;
+}
+
+.div-nav {
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-logo {
+    width: 15%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-nav {
+    width: 100px;   
+}
+
+.title-nav {
+    color: white;
+}
+
+.nav-btns-container {
+    width: 60%;
+}
+
+.nav-bts-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-btn {
+    margin-top: 1.5%;
+
+}
+
+.nav-link {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.tiket-btn {
+    color: green;
+}
+
+/* fin contenido nav */
+
+/* inicio contenido carrousel */
+
+a {
+    text-decoration: none;
+}
+
+.container-carousel-slide {
+    height: 90vh;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    height: 100%;
+    position: relative;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicators{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left, .right {
+    color: rgb(121, 152, 165);
+    font-size: 3em;
+}
+
+.text-img-carousel {
+    top: 200px;
+    left: 70%;
+    width: 25%;
+    text-align: end;
+    color: white;
+    position: absolute;
+}
+
+.carousel-title {
+    margin-bottom: 3%;
+}
+
+.btn-orador {
+    padding: 1%;
+    margin-top: 4%;
+    color: white;
+    border-radius: 5px;
+    border: solid 1px white;
+    background-color: transparent;
+}
+
+.btn-comprar {
+    padding: 1%;
+    margin-top: 4%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(5, 179, 5);
+}
+
+/* fin contenido carrousel */
+
+/* inicio oradores cards */
+
+.section-oradores-cards {
+    margin-bottom: 3%;
+}
+
+.title-oradores {
+    margin: 1%;
+    text-align: center;
+}
+
+.text {
+    font-size: 0.6em;
+}
+
+.title {
+    margin-top: 1%;
+}
+
+.container-oradores-cards {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-oradores {
+    width: 28%;
+    border-radius: 5px;
+    border: solid 1px rgb(170, 165, 165, 0.3);
+}
+
+.container-img-card {
+    width: 100%;
+    height: 43vh;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.card-text {
+    padding: 5%;
+}
+
+.btn-card {
+    margin-top: 3%;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-js {
+    color: black;
+    background-color: rgb(230, 182, 63);
+}
+
+.btn-react {
+    background-color: rgb(71, 174, 192);
+}
+
+.btn-negocios {
+    background-color: rgb(112, 110, 110);
+}
+
+.btn-startups {
+    background-color: rgb(189, 34, 34);
+}
+
+.card-text-title {
+    margin-bottom: 3%;
+}
+
+
+/* fin oradores cards */
+
+/* inicio imagen con texto */
+
+.section-texto-imagen {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-imagen {
+    width: 49.9%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.imagen-contain {
+    width: 100%; 
+}
+
+.container-texto {
+    width: 49.9%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(53, 71, 88);
+}
+
+.text-texto {
+    margin-top: 3%;
+}
+
+.btn-conoce {
+    color: white;
+    margin-top: 3%;
+    border: solid 1px white;
+    background-color: transparent;
+}
+
+/* fin imagen con texto */
+
+/* inicio formulario */
+
+.formulario {
+    width: 36%;
+    display: flex;
+    margin: 2% auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-text {
+    margin: 1.3% 0;
+    font-size: 0.8em;
+}
+
+.inputs-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-contain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-nombre, .input-apellido {
+    width: 49%;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: solid 1px rgb(170, 165, 165, 0.6);
+}
+
+.mensaje {
+    padding: 2%;
+    font-size: 1em;
+    border-radius: 5px;
+    border: solid 1px rgb(170, 165, 165, 0.6);
+}
+
+.text-end {
+    width: 90%;
+    margin: 1.5% 0;
+    font-size: 0.7em;
+    text-align: start;
+}
+
+.btn-enviar {
+    width: 90%;
+    padding: 1.5% 0;
+    border: none;
+    background-color: rgb(156, 216, 77);
+}
+
+/* fin formulario */
+
+/* inicio footer */
+
+.footer {
+    height: 10vh;    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(77, 121, 122);
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-list {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-btn {
+    text-align: center;
+    width: 10%;
+}
+
+.btn-footer {
+    border: none;
+    background-color: transparent;
+}
